@@ -1,0 +1,52 @@
+---
+const { firstAnchorRef, secondAnchorRef, thirdAnchorRef, fourAnchorRef } =
+  Astro.props
+---
+
+<header
+  class='fixed top-0 left-1/2 -translate-x-1/2 z-10 w-full max-w-6xl mx-auto shadow-xl backdrop-blur-md text-gray-200'
+>
+  <nav
+    class='flex flex-col sm:flex-row items-center justify-center text-base md:text-lg font-medium mx-auto mt-3 sm:mt-2 py-0 px-6 gap-x-6 gap-y-3'
+  >
+    <a
+      href={firstAnchorRef}
+      class='order-1 flex items-center justify-center transition duration-500 hover:text-[#f41d00] hover:scale-110'
+    >
+      Calendario
+    </a>
+    <a
+      href={secondAnchorRef}
+      class='order-2 flex items-center justify-center transition duration-500 hover:text-[#f41d00] hover:scale-110'
+    >
+      Equipos
+    </a>
+    <div
+      class='order-5 sm:order-3 flex justify-center items-center px-6 transition-transform duration-700 hover:scale-110 hover:animate-custom-pulse'
+    >
+      <a href='/' class='relative'>
+        <img
+          src='/images/logos/logof1White.webp'
+          alt='F1 Logo'
+          class='h-10 md:h-12 translate-y-3 sm:translate-y-4'
+        />
+      </a>
+    </div>
+    <a
+      href={thirdAnchorRef}
+      class='order-3 sm:order-3 flex items-center justify-center transition duration-500 hover:text-[#f41d00] hover:scale-110'
+    >
+      Pilotos
+    </a>
+    <a
+      href={fourAnchorRef}
+      class='order-4 flex items-center justify-center transition duration-500 hover:text-[#f41d00] hover:scale-110'
+    >
+      Resultados
+    </a>
+  </nav>
+  <div
+    class='h-[2px] w-full bg-gradient-to-r from-transparent via-[#f41d00]/60 to-transparent'
+  >
+  </div>
+</header>

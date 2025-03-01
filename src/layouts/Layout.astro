@@ -1,0 +1,43 @@
+---
+import '@fontsource-variable/onest'
+import '../styles/global.css'
+import Background from '@/sections/Background.astro'
+import Footer from '@/sections/Footer.astro'
+---
+
+<!doctype html>
+<html lang='es'>
+  <head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width' />
+    <link rel='icon' type='image/svg+xml' href='/f1.svg' />
+    <meta
+      name='description'
+      content='F1 Concept Landing Page - Teams, Circuits, Drivers, and more - All Grand Prix F1 2025 Season'
+    />
+    <title>F1 Concept Landing Page</title>
+  </head>
+  <body class='relative'>
+    <Background />
+    <slot />
+    <Footer />
+  </body>
+</html>
+
+<style is:global>
+  @config '../../tailwind.config.mjs';
+  :root {
+    font-family: 'Onest Variable';
+  }
+  html {
+    background: #ddd;
+    scroll-behavior: smooth;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overscroll-behavior: none;
+    overflow-x: hidden;
+  }
+</style>

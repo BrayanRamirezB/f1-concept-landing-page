@@ -1,0 +1,39 @@
+---
+import SocialPill from '@/components/SocialPill.astro'
+import GitHubIcon from '@/icons/Github.astro'
+---
+
+<footer class='w-full h-auto max-w-6xl mx-auto shadow-lg backdrop-blur-sm'>
+  <div
+    class='h-[2px] w-full bg-gradient-to-r from-transparent via-[#f41d00]/60 to-transparent'
+  >
+  </div>
+  <div
+    class='mx-auto p-4 flex flex-wrap flex-col justify-center items-center sm:flex-row sm:justify-between'
+  >
+    <span class='text-sm font-semibold text-gray-200 sm:text-center'>
+      Creado por <SocialPill
+        href='https://github.com/BrayanRamirezB'
+        class='text-[#f41d00]/80 hover:underline'
+      >
+        BrayanRB</SocialPill
+      > con 💖 en <span class='font-bold'>2025</span>.
+    </span>
+
+    <div
+      class='flex items-center mt-3 text-sm space-x-4 font-medium text-gray-400 sm:mt-0'
+    >
+      <a href='/' class='hover:underline'> Inicio </a>
+      <a href='mailto:brbrayan1945@gmail.com' class='hover:underline'>
+        Contacto
+      </a>
+      <SocialPill
+        href='https://github.com/BrayanRamirezB/f1-concept-landing-page'
+        class='flex items-center justify-center gap-x-1 transition hover:underline'
+      >
+        <GitHubIcon class='size-5' />
+        <SocialPill />
+      </SocialPill>
+    </div>
+  </div>
+</footer>
