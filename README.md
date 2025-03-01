@@ -2,8 +2,6 @@
 
 Sitio web de seguimiento de la Temporada 2025 de Fórmula 1. Mantente actualizado con información sobre equipos, pilotos, circuitos, calendario de carreras y resultados de los campeonatos de constructores y pilotos.
 
-![F1 2025 Preview](/images/f1-concept-landing-page.webp)
-
 ## 🚀 Características principales
 
 - **Equipos 2025**: Detalles técnicos y perfiles de todos los equipos participantes
