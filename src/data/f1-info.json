@@ -674,7 +674,7 @@
   "circuits": [
     {
       "id": 1,
-      "name": "Australia 2025",
+      "name": "Australia",
       "fullName": "FORMULA 1 LOUIS VUITTON AUSTRALIAN GRAND PRIX 2025",
       "circuit": "Albert Park Grand Prix Circuit",
       "country": "Australia",
@@ -691,7 +691,7 @@
     },
     {
       "id": 2,
-      "name": "China 2025",
+      "name": "China",
       "fullName": "FORMULA 1 HEINEKEN CHINESE GRAND PRIX 2025",
       "circuit": "Shanghai International Circuit",
       "country": "China",
@@ -708,7 +708,7 @@
     },
     {
       "id": 3,
-      "name": "Japan 2025",
+      "name": "Japan",
       "fullName": "FORMULA 1 LENOVO JAPANESE GRAND PRIX 2025",
       "circuit": "Suzuka Circuit",
       "country": "Japan",
@@ -725,12 +725,12 @@
     },
     {
       "id": 4,
-      "name": "Bahrain 2025",
+      "name": "Bahrain",
       "fullName": "FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2025",
       "circuit": "Bahrain International Circuit",
       "country": "Bahrain",
       "countryFlag": "/images/flags/bahrain-flag.webp",
-      "circuitLogo": "/images/circuits/mini/bahrain.webp",
+      "circuitLogo": "/images/circuits/mini/Bahrain.webp",
       "circuitImage": "/images/circuits/complete/Bahrain_Circuit.webp",
       "generalDate": "11 - 13 April",
       "firstGrandPrix": "2004",
@@ -742,7 +742,7 @@
     },
     {
       "id": 5,
-      "name": "Saudi Arabia 2025",
+      "name": "Saudi Arabia",
       "fullName": "FORMULA 1 STC SAUDI ARABIAN GRAND PRIX 2025",
       "circuit": "Jeddah Corniche Circuit",
       "country": "Saudi Arabia",
@@ -759,7 +759,7 @@
     },
     {
       "id": 6,
-      "name": "Miami 2025",
+      "name": "Miami",
       "fullName": "FORMULA 1 CRYPTO.COM MIAMI GRAND PRIX 2025",
       "circuit": "Miami International Autodrome",
       "country": "United States",
@@ -776,7 +776,7 @@
     },
     {
       "id": 7,
-      "name": "Emilia-Romagna 2025",
+      "name": "Emilia-Romagna",
       "fullName": "FORMULA 1 AWS GRAN PREMIO DEL MADE IN ITALY E DELL'EMILIA-ROMAGNA 2025",
       "circuit": "Autodromo Internazionale Enzo e Dino Ferrari",
       "country": "Italy",
@@ -793,7 +793,7 @@
     },
     {
       "id": 8,
-      "name": "Monaco 2025",
+      "name": "Monaco",
       "fullName": "FORMULA 1 TAG HEUER GRAND PRIX DE MONACO 2025",
       "circuit": "Circuit de Monaco",
       "country": "Monaco",
@@ -810,7 +810,7 @@
     },
     {
       "id": 9,
-      "name": "Spain 2025",
+      "name": "Spain",
       "fullName": "FORMULA 1 ARAMCO GRAN PREMIO DE ESPAÑA 2025",
       "circuit": "Circuit de Barcelona-Catalunya",
       "country": "Spain",
@@ -827,7 +827,7 @@
     },
     {
       "id": 10,
-      "name": "Canada 2025",
+      "name": "Canada",
       "fullName": "FORMULA 1 PIRELLI GRAND PRIX DU CANADA 2025",
       "circuit": "Circuit Gilles-Villeneuve",
       "country": "Canada",
@@ -844,7 +844,7 @@
     },
     {
       "id": 11,
-      "name": "Austria 2025",
+      "name": "Austria",
       "fullName": "FORMULA 1 MSC CRUISES AUSTRIAN GRAND PRIX 2025",
       "circuit": "Red Bull Ring",
       "country": "Austria",
@@ -861,7 +861,7 @@
     },
     {
       "id": 12,
-      "name": "Great Britain 2025",
+      "name": "Great Britain",
       "fullName": "FORMULA 1 QATAR AIRWAYS BRITISH GRAND PRIX 2025",
       "circuit": "Silverstone Circuit",
       "country": "United Kingdom",
@@ -878,7 +878,7 @@
     },
     {
       "id": 13,
-      "name": "Belgium 2025",
+      "name": "Belgium",
       "fullName": "FORMULA 1 MOËT & CHANDON BELGIAN GRAND PRIX 2025",
       "circuit": "Circuit de Spa-Francorchamps",
       "country": "Belgium",
@@ -895,7 +895,7 @@
     },
     {
       "id": 14,
-      "name": "Hungary 2025",
+      "name": "Hungary",
       "fullName": "FORMULA 1 LENOVO HUNGARIAN GRAND PRIX 2025",
       "circuit": "Hungaroring",
       "country": "Hungary",
@@ -912,7 +912,7 @@
     },
     {
       "id": 15,
-      "name": "Netherlands 2025",
+      "name": "Netherlands",
       "fullName": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2025",
       "circuit": "Circuit Zandvoort",
       "country": "Netherlands",
@@ -929,7 +929,7 @@
     },
     {
       "id": 16,
-      "name": "Italy 2025",
+      "name": "Italy",
       "fullName": "FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2025",
       "circuit": "Autodromo Nazionale Monza",
       "country": "Italy",
@@ -946,7 +946,7 @@
     },
     {
       "id": 17,
-      "name": "Azerbaijan 2025",
+      "name": "Azerbaijan",
       "fullName": "FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2025",
       "circuit": "Baku City Circuit",
       "country": "Azerbaijan",
@@ -963,7 +963,7 @@
     },
     {
       "id": 18,
-      "name": "Singapore 2025",
+      "name": "Singapore",
       "fullName": "FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2025",
       "circuit": "Marina Bay Street Circuit",
       "country": "Singapore",
@@ -980,7 +980,7 @@
     },
     {
       "id": 19,
-      "name": "United States 2025",
+      "name": "United States",
       "fullName": "FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2025",
       "circuit": "Circuit of The Americas",
       "country": "United States",
@@ -997,7 +997,7 @@
     },
     {
       "id": 20,
-      "name": "México 2025",
+      "name": "México",
       "fullName": "FORMULA 1 GRAN PREMIO DE LA CIUDAD DE MÉXICO 2025",
       "circuit": "Autódromo Hermanos Rodríguez",
       "country": "México",
@@ -1014,7 +1014,7 @@
     },
     {
       "id": 21,
-      "name": "Brazil 2025",
+      "name": "Brazil",
       "fullName": "FORMULA 1 MSC CRUISES GRANDE PRÊMIO DE SÃO PAULO 2025",
       "circuit": "Autódromo José Carlos Pace",
       "country": "Brazil",
@@ -1031,7 +1031,7 @@
     },
     {
       "id": 22,
-      "name": "Las Vegas 2025",
+      "name": "Las Vegas",
       "fullName": "FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX 2025",
       "circuit": "Las Vegas Strip Circuit",
       "country": "United Kingdom",
@@ -1048,7 +1048,7 @@
     },
     {
       "id": 23,
-      "name": "Quatar 2025",
+      "name": "Quatar",
       "fullName": "FORMULA 1 QATAR AIRWAYS QATAR GRAND PRIX 2025",
       "circuit": "Lusail International Circuit",
       "country": "Qatar",
@@ -1065,7 +1065,7 @@
     },
     {
       "id": 24,
-      "name": "Abu Dhabi 2025",
+      "name": "Abu Dhabi",
       "fullName": "FORMULA 1 ETIHAD AIRWAYS ABU DHABI GRAND PRIX 2025",
       "circuit": "Yas Marina Circuit",
       "country": "Abu Dhabi",

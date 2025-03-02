@@ -15,8 +15,8 @@ const DriverPreview = ({ previewDriver }: driverPreviewProps) => {
     'via-[#f17f04]',
     'via-[#46a09b]',
     'via-[#2324d1]',
-    'via-[#161960]',
-    'via-[#0b1b55]'
+    'via-[#1e23ad]',
+    'via-[#489edb]'
   ]
 
   const textColor = [
@@ -38,7 +38,7 @@ const DriverPreview = ({ previewDriver }: driverPreviewProps) => {
     <a
       key={previewDriver.id}
       href={`/driver/${previewDriver.name.replaceAll(' ', '-').toLowerCase()}`}
-      className={`flex flex-col items-center justify-center gap-y-2 max-w-82 animate-pulse-fade-in hover:scale-110 transition duration-500 ease-in-out -translate-y-138 ${textColor[teamId]}`}
+      className={`absolute flex flex-col items-center justify-center gap-y-2 max-w-82 animate-pulse-fade-in hover:scale-110 transition duration-500 ease-in-out -translate-y-2 ${textColor[teamId]}`}
     >
       <img
         src={previewDriver.driverImage}
