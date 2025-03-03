@@ -36,6 +36,7 @@ export interface Team {
   powerUnit: string
   firstTeamEntry: string
   worldChampionship: string
+  currentPointsWC: number
   highestRaceFinish: string
   polePosition: string
   fastestLaps: string
@@ -65,4 +66,5 @@ export interface Driver {
   helmetImage: string
   driverImage: string
   homeRace: string
+  currentPointsDWC: number
 }

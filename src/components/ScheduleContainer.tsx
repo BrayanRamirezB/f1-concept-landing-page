@@ -40,7 +40,7 @@ const ScheduleContainer = ({ circuits }: scheduleContainerProps) => {
             <h4 className='font-medium text-md'>{circuit.generalDate}</h4>
           </div>
 
-          <div className='transition-transform duration-700 ease-in-out translate-y-50 group-hover:translate-y-0 px-4 bg-black/40'>
+          <div className='transition-transform duration-700 ease-in-out translate-y-50 group-hover:translate-y-0 px-4 bg-black/40 w-[250px]'>
             <img
               src={circuit.circuitLogo}
               alt={circuit.name}

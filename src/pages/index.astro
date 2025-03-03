@@ -7,20 +7,35 @@ import Teams from '@/sections/Teams.astro'
 import data from '@/data/f1-info.json'
 import Drivers from '@/sections/Drivers.astro'
 import Schedule from '@/sections/Schedule.astro'
+import Results from '@/sections/Results.astro'
 ---
 
 <Layout>
   <Header
-    firstAnchorRef='#teams'
-    secondAnchorRef='#drivers'
-    thirdAnchorRef='#schedule'
-    fourAnchorRef='#results'
+    firstAnchorRef='#schedule'
+    secondAnchorRef='#results'
+    thirdAnchorRef='#teams'
+    fourAnchorRef='#drivers'
   />
   <main class='max-w-6xl px-2 lg:px-10 mx-auto mt-14 md:mt-0'>
     <SectionContainer
       class='flex items-center justify-center py-20 h-screen animate-fade-in-up'
     >
       <Hero />
+    </SectionContainer>
+
+    <SectionContainer
+      id='schedule'
+      class='flex items-center justify-center pb-20'
+    >
+      <Schedule data={data.circuits} />
+    </SectionContainer>
+
+    <SectionContainer
+      id='results'
+      class='flex items-center justify-center pb-20'
+    >
+      <Results data={data.teams} />
     </SectionContainer>
 
     <SectionContainer id='teams' class='flex items-center justify-center pb-20'>
@@ -32,13 +47,6 @@ import Schedule from '@/sections/Schedule.astro'
       class='flex items-center justify-center pb-20'
     >
       <Drivers data={data.teams} />
-    </SectionContainer>
-
-    <SectionContainer
-      id='schedule'
-      class='flex items-center justify-center pb-20'
-    >
-      <Schedule data={data.circuits} />
     </SectionContainer>
   </main>
 </Layout>

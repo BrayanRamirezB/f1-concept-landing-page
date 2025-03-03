@@ -15,6 +15,7 @@
       "powerUnit": "Renault",
       "firstTeamEntry": "1986",
       "worldChampionship": "2",
+      "currentPointsWC": 0,
       "highestRaceFinish": "1 (x21)",
       "polePosition": "20",
       "fastestLaps": "16",
@@ -41,7 +42,8 @@
           "placeOfBirth": "Rouen, France",
           "helmetImage": "/images/helmets/gasly.webp",
           "driverImage": "/images/drivers/piegas01.webp",
-          "homeRace": "Circuit Paul Ricard"
+          "homeRace": "Circuit Paul Ricard",
+          "currentPointsDWC": 0
         },
         {
           "id": 2,
@@ -63,7 +65,8 @@
           "placeOfBirth": "Gold Coast, Australia",
           "helmetImage": "/images/helmets/doohan.webp",
           "driverImage": "/images/drivers/jacdoo01.webp",
-          "homeRace": "Albert Park Grand Prix Circuit"
+          "homeRace": "Albert Park Grand Prix Circuit",
+          "currentPointsDWC": 0
         }
       ]
     },
@@ -82,6 +85,7 @@
       "powerUnit": "Mercedes",
       "firstTeamEntry": "2018",
       "worldChampionship": "0",
+      "currentPointsWC": 0,
       "highestRaceFinish": "1 (x1)",
       "polePosition": "1",
       "fastestLaps": "3",
@@ -108,7 +112,8 @@
           "placeOfBirth": "Oviedo, Spain",
           "helmetImage": "/images/helmets/alonso.webp",
           "driverImage": "/images/drivers/feralo01.webp",
-          "homeRace": "Circuit de Barcelona-Catalunya"
+          "homeRace": "Circuit de Barcelona-Catalunya",
+          "currentPointsDWC": 0
         },
         {
           "id": 4,
@@ -130,7 +135,8 @@
           "placeOfBirth": "Montreal, Canada",
           "helmetImage": "/images/helmets/stroll.webp",
           "driverImage": "/images/drivers/lanstr01.webp",
-          "homeRace": "Circuit Gilles-Villeneuve"
+          "homeRace": "Circuit Gilles-Villeneuve",
+          "currentPointsDWC": 0
         }
       ]
     },
@@ -149,6 +155,7 @@
       "powerUnit": "Ferrari",
       "firstTeamEntry": "1950",
       "worldChampionship": "16",
+      "currentPointsWC": 0,
       "highestRaceFinish": "1 (x249)",
       "polePosition": "253",
       "fastestLaps": "263",
@@ -175,7 +182,8 @@
           "placeOfBirth": "Monte Carlo, Monaco",
           "helmetImage": "/images/helmets/leclerc.webp",
           "driverImage": "/images/drivers/chalec01.webp",
-          "homeRace": "Circuit de Monaco"
+          "homeRace": "Circuit de Monaco",
+          "currentPointsDWC": 0
         },
         {
           "id": 6,
@@ -197,7 +205,8 @@
           "placeOfBirth": "Stevenage, England",
           "helmetImage": "/images/helmets/hamilton.webp",
           "driverImage": "/images/drivers/lewham01.webp",
-          "homeRace": "Silverstone Circuit"
+          "homeRace": "Silverstone Circuit",
+          "currentPointsDWC": 0
         }
       ]
     },
@@ -216,6 +225,7 @@
       "powerUnit": "Ferrari",
       "firstTeamEntry": "2016",
       "worldChampionship": "0",
+      "currentPointsWC": 0,
       "highestRaceFinish": "4 (x1)",
       "polePosition": "1",
       "fastestLaps": "3",
@@ -242,7 +252,8 @@
           "placeOfBirth": "Évreux, Normandy",
           "helmetImage": "/images/helmets/ocon.webp",
           "driverImage": "/images/drivers/estoco01.webp",
-          "homeRace": "Circuit Paul Ricard"
+          "homeRace": "Circuit Paul Ricard",
+          "currentPointsDWC": 0
         },
         {
           "id": 8,
@@ -264,7 +275,8 @@
           "placeOfBirth": "Chelmsford, England",
           "helmetImage": "/images/helmets/bearman.webp",
           "driverImage": "/images/drivers/olibea01.webp",
-          "homeRace": "Silverstone Circuit"
+          "homeRace": "Silverstone Circuit",
+          "currentPointsDWC": 0
         }
       ]
     },
@@ -283,6 +295,7 @@
       "powerUnit": "Ferrari",
       "firstTeamEntry": "1993",
       "worldChampionship": "0",
+      "currentPointsWC": 0,
       "highestRaceFinish": "1 (x1)",
       "polePosition": "1",
       "fastestLaps": "7",
@@ -309,7 +322,8 @@
           "placeOfBirth": "Emmerich am Rhein, Germany",
           "helmetImage": "/images/helmets/hulkenberg.webp",
           "driverImage": "/images/drivers/nichul01.webp",
-          "homeRace": "Hockenheimring Baden-Württemberg"
+          "homeRace": "Hockenheimring Baden-Württemberg",
+          "currentPointsDWC": 0
         },
         {
           "id": 10,
@@ -331,7 +345,8 @@
           "placeOfBirth": "São Paulo, Brazil",
           "helmetImage": "/images/helmets/bortoleto.webp",
           "driverImage": "/images/drivers/gabbor01.webp",
-          "homeRace": "Autódromo José Carlos Pace"
+          "homeRace": "Autódromo José Carlos Pace",
+          "currentPointsDWC": 0
         }
       ]
     },
@@ -350,6 +365,7 @@
       "powerUnit": "Mercedes",
       "firstTeamEntry": "1966",
       "worldChampionship": "9",
+      "currentPointsWC": 0,
       "highestRaceFinish": "1 (x189)",
       "polePosition": "164",
       "fastestLaps": "172",
@@ -376,7 +392,8 @@
           "placeOfBirth": "Melbourne, Victoria",
           "helmetImage": "/images/helmets/piastri.webp",
           "driverImage": "/images/drivers/oscpia01.webp",
-          "homeRace": "Albert Park Grand Prix Circuit"
+          "homeRace": "Albert Park Grand Prix Circuit",
+          "currentPointsDWC": 0
         },
         {
           "id": 12,
@@ -398,7 +415,8 @@
           "placeOfBirth": "Bristol, England",
           "helmetImage": "/images/helmets/norris.webp",
           "driverImage": "/images/drivers/lannor01.webp",
-          "homeRace": "Silverstone Circuit"
+          "homeRace": "Silverstone Circuit",
+          "currentPointsDWC": 0
         }
       ]
     },
@@ -417,6 +435,7 @@
       "powerUnit": "Mercedes",
       "firstTeamEntry": "1970",
       "worldChampionship": "8",
+      "currentPointsWC": 0,
       "highestRaceFinish": "1 (x120)",
       "polePosition": "133",
       "fastestLaps": "100",
@@ -443,7 +462,8 @@
           "placeOfBirth": "King's Lynn, England",
           "helmetImage": "/images/helmets/russell.webp",
           "driverImage": "/images/drivers/georus01.webp",
-          "homeRace": "Silverstone Circuit"
+          "homeRace": "Silverstone Circuit",
+          "currentPointsDWC": 0
         },
         {
           "id": 14,
@@ -465,7 +485,8 @@
           "placeOfBirth": "Bologna, Italy",
           "helmetImage": "/images/helmets/antonelli.webp",
           "driverImage": "/images/drivers/andant01.webp",
-          "homeRace": "Autodromo Nazionale Monza"
+          "homeRace": "Autodromo Nazionale Monza",
+          "currentPointsDWC": 0
         }
       ]
     },
@@ -484,6 +505,7 @@
       "powerUnit": "Honda RBPT",
       "firstTeamEntry": "1985",
       "worldChampionship": "0",
+      "currentPointsWC": 0,
       "highestRaceFinish": "1 (x2)",
       "polePosition": "1",
       "fastestLaps": "4",
@@ -510,7 +532,8 @@
           "placeOfBirth": "Sagamihara, Japan",
           "helmetImage": "/images/helmets/tsunoda.webp",
           "driverImage": "/images/drivers/yuktsu01.webp",
-          "homeRace": "Suzuka Circuit"
+          "homeRace": "Suzuka Circuit",
+          "currentPointsDWC": 0
         },
         {
           "id": 16,
@@ -532,7 +555,8 @@
           "placeOfBirth": "Paris, France",
           "helmetImage": "/images/helmets/hadjar.webp",
           "driverImage": "/images/drivers/isahad01.webp",
-          "homeRace": "Circuit Paul Ricard"
+          "homeRace": "Circuit Paul Ricard",
+          "currentPointsDWC": 0
         }
       ]
     },
@@ -551,6 +575,7 @@
       "powerUnit": "Honda RBPT",
       "firstTeamEntry": "1997",
       "worldChampionship": "6",
+      "currentPointsWC": 0,
       "highestRaceFinish": "1 (x122)",
       "polePosition": "103",
       "fastestLaps": "99",
@@ -562,7 +587,7 @@
           "name": "Verstappen",
           "fullName": "Max Verstappen",
           "raceNumber": "1",
-          "team": "Red Bull Racing",
+          "team": "Red Bull",
           "country": "Netherlands",
           "countryFlag": "/images/flags/Netherlands.webp",
           "podiums": "112",
@@ -577,14 +602,15 @@
           "placeOfBirth": "Hasselt, Belgium",
           "helmetImage": "/images/helmets/verstappen.webp",
           "driverImage": "/images/drivers/maxver01.webp",
-          "homeRace": "Circuit Zandvoort"
+          "homeRace": "Circuit Zandvoort",
+          "currentPointsDWC": 0
         },
         {
           "id": 18,
           "name": "Lawson",
           "fullName": "Liam Lawson",
           "raceNumber": "30",
-          "team": "Red Bull Racing",
+          "team": "Red Bull",
           "country": "New Zealand",
           "countryFlag": "/images/flags/NewZealand.webp",
           "podiums": "0",
@@ -599,7 +625,8 @@
           "placeOfBirth": "Hastings, New Zealand",
           "helmetImage": "/images/helmets/lawson.webp",
           "driverImage": "/images/drivers/lialaw01.webp",
-          "homeRace": "Albert Park Grand Prix Circuit"
+          "homeRace": "Albert Park Grand Prix Circuit",
+          "currentPointsDWC": 0
         }
       ]
     },
@@ -618,6 +645,7 @@
       "powerUnit": "Mercedes",
       "firstTeamEntry": "1978",
       "worldChampionship": "9",
+      "currentPointsWC": 0,
       "highestRaceFinish": "1 (x114)",
       "polePosition": "128",
       "fastestLaps": "133",
@@ -644,7 +672,8 @@
           "placeOfBirth": "Madrid, Spain",
           "helmetImage": "/images/helmets/sainz.webp",
           "driverImage": "/images/drivers/carsai01.webp",
-          "homeRace": "Circuit de Barcelona-Catalunya"
+          "homeRace": "Circuit de Barcelona-Catalunya",
+          "currentPointsDWC": 0
         },
         {
           "id": 20,
@@ -666,7 +695,8 @@
           "placeOfBirth": "London, England",
           "helmetImage": "/images/helmets/albon.webp",
           "driverImage": "/images/drivers/alealb01.webp",
-          "homeRace": "Silverstone Circuit"
+          "homeRace": "Silverstone Circuit",
+          "currentPointsDWC": 0
         }
       ]
     }
