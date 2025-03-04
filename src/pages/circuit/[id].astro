@@ -1,0 +1,164 @@
+---
+import Layout from '@/layouts/Layout.astro'
+import Header from '@/sections/Header.astro'
+import data from '@/data/f1-info.json'
+import SectionContainer from '@/sections/SectionContainer.astro'
+
+export async function getStaticPaths() {
+  return data.circuits.map((circuit) => ({
+    params: { id: circuit.name.replaceAll(' ', '-').toLowerCase().toString() },
+    props: { circuit }
+  }))
+}
+
+const { id } = Astro.params
+const { circuit } = Astro.props
+---
+
+<Layout>
+  <Header
+    firstAnchorRef='/#schedule'
+    secondAnchorRef='/#results'
+    thirdAnchorRef='/#teams'
+    fourAnchorRef='/#drivers'
+  />
+  <main class='max-w-6xl px-2 lg:px-10 mx-auto mt-14 md:mt-0'>
+    <SectionContainer
+      class='flex flex-col items-center justify-center py-20 h-screen animate-fade-in-up'
+    >
+      <div
+        class='flex flex-col items-center justify-center gap-y-8 text-center cursor-default text-neutral-100 hover:-translate-y-2 transition duration-500 ease-in-out group'
+      >
+        <div class='relative'>
+          <h1
+            class='font-bold text-4xl md:text-5xl italic blur-sm opacity-20 translate-y-6 translate-x-6
+             transition duration-500 ease-in-out group-hover:scale-130
+              delay-200 group-hover:opacity-0'
+          >
+            {circuit.fullName}
+          </h1>
+          <div
+            class='absolute inset-0 flex items-center justify-center group-hover:text-[#f41d00]'
+          >
+            <h1 class='font-bold text-4xl md:text-5xl italic'>
+              {circuit.fullName}
+            </h1>
+          </div>
+        </div>
+        <div class='flex flex-row items-center justify-center gap-x-2'>
+          <div class='relative'>
+            <img
+              src={circuit.countryFlag}
+              alt={circuit.name}
+              class='h-14 object-contain blur-md opacity-50 translate-y-4 translate-x-2
+             transition duration-500 ease-in-out group-hover:scale-130
+              delay-200 group-hover:opacity-0'
+            />
+            <div class='absolute inset-0 flex items-center justify-center'>
+              <img
+                src={circuit.countryFlag}
+                alt={circuit.name}
+                class='h-14 object-contain'
+              />
+            </div>
+          </div>
+          <h2 class='font-semibold text-3xl md:text-4xl text-neutral-200'>
+            {circuit.name}
+          </h2>
+        </div>
+        <h3 class='text-neutral-200 font-normal text-xl md:text-2xl'>
+          {circuit.generalDate}
+        </h3>
+      </div>
+    </SectionContainer>
+
+    <SectionContainer
+      class='flex flex-col items-center justify-center pb-20 gap-y-20'
+    >
+      <div class='flex flex-row items-center justify-center w-full text-center'>
+        <div
+          class='h-[4px] w-1/5 bg-gradient-to-r from-transparent via-neutral-100/60 to-transparent'
+        >
+        </div>
+        <h2 class='text-neutral-200 font-semibold text-4xl w-3/5'>
+          {circuit.circuit}
+        </h2>
+        <div
+          class='h-[4px] w-1/5 bg-gradient-to-r from-transparent via-neutral-100/60 to-transparent'
+        >
+        </div>
+      </div>
+      <div
+        class='flex flex-col md:flex-row items-center justify-center gap-x-12 gap-y-14'
+      >
+        <div class='relative flex items-center justify-center group'>
+          <img
+            src={circuit.circuitImage}
+            alt={circuit.name}
+            class='h-64 md:h-74 object-contain blur-sm opacity-50
+             transition duration-500 ease-in-out group-hover:scale-130
+              delay-200 group-hover:opacity-0'
+          />
+          <div class='absolute inset-0 flex items-center justify-center'>
+            <img
+              src={circuit.circuitImage}
+              alt={circuit.name}
+              class='h-60 md:h-70 object-contain group-hover:scale-110 transition-transform duration-700 ease-in-out'
+            />
+          </div>
+        </div>
+        <div
+          class='grid grid-cols-[repeat(2,1fr)] grid-rows-[repeat(3,auto)] gap-x-6 gap-y-8 text-neutral-100 cursor-default'
+        >
+          <div
+            class='flex flex-col items-start justify-center gap-y-2 rounded-xl py-2 px-4 backdrop-blur-md bg-gradient-to-b from-[#15122c] via-[#15122c]/50 to-transparent border-0 transition-transform duration-500 ease-in-out hover:-translate-y-2'
+          >
+            <h2 class='font-normal text-xl text-neutral-200'>
+              Primer Gran Premio
+            </h2>
+            <h3 class='font-semibold text-3xl'>{circuit.firstGrandPrix}</h3>
+          </div>
+
+          <div
+            class='flex flex-col items-start justify-center gap-y-2 rounded-xl py-2 px-4 backdrop-blur-md bg-gradient-to-b from-[#15122c] via-[#15122c]/50 to-transparent border-0 transition-transform duration-500 ease-in-out hover:-translate-y-2'
+          >
+            <h2 class='font-normal text-xl text-neutral-200'>
+              Número de Vueltas
+            </h2>
+            <h3 class='font-semibold text-3xl'>{circuit.numberOfLaps}</h3>
+          </div>
+
+          <div
+            class='flex flex-col items-start justify-center gap-y-2 rounded-xl py-2 px-4 backdrop-blur-md bg-gradient-to-b from-[#15122c] via-[#15122c]/50 to-transparent border-0 transition-transform duration-500 ease-in-out hover:-translate-y-2'
+          >
+            <h2 class='font-normal text-xl text-neutral-200'>
+              Longitud de Circuito
+            </h2>
+            <h3 class='font-semibold text-3xl'>{circuit.circuitLength}</h3>
+          </div>
+
+          <div
+            class='flex flex-col items-start justify-center gap-y-2 rounded-xl py-2 px-4 backdrop-blur-md bg-gradient-to-b from-[#15122c] via-[#15122c]/50 to-transparent border-0 transition-transform duration-500 ease-in-out hover:-translate-y-2'
+          >
+            <h2 class='font-normal text-xl text-neutral-200'>
+              Distancia de Carrera
+            </h2>
+            <h3 class='font-semibold text-3xl'>{circuit.raceDistance}</h3>
+          </div>
+
+          <div
+            class='flex flex-col items-start justify-center gap-y-2 col-span-2 rounded-xl py-2 px-4 backdrop-blur-md bg-gradient-to-b from-[#15122c] via-[#15122c]/50 to-transparent border-0 transition-transform duration-500 ease-in-out hover:-translate-y-2'
+          >
+            <h2 class='font-normal text-xl'>Vuelta más rápida</h2>
+            <h3 class='font-semibold text-3xl'>
+              {circuit.lapRecord}
+              <span class='italic font-semibold text-2xl'
+                >{circuit.driverLapRecord}.</span
+              >
+            </h3>
+          </div>
+        </div>
+      </div>
+    </SectionContainer>
+  </main>
+</Layout>
