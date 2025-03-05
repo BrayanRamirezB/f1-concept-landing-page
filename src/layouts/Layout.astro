@@ -3,6 +3,7 @@ import '@fontsource-variable/onest'
 import '../styles/global.css'
 import Background from '@/sections/Background.astro'
 import Footer from '@/sections/Footer.astro'
+import ClientRouter from 'astro/components/ClientRouter.astro'
 ---
 
 <!doctype html>
@@ -16,6 +17,7 @@ import Footer from '@/sections/Footer.astro'
       content='F1 Concept Landing Page - Teams, Circuits, Drivers, and more - All Grand Prix F1 2025 Season'
     />
     <title>F1 Concept Landing Page</title>
+    <ClientRouter />
   </head>
   <body class='relative'>
     <Background />

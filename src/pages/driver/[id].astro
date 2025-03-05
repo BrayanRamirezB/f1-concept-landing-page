@@ -1,0 +1,146 @@
+---
+import Layout from '@/layouts/Layout.astro'
+import Header from '@/sections/Header.astro'
+import data from '@/data/f1-info.json'
+import SectionContainer from '@/sections/SectionContainer.astro'
+import InfoDriver from '@/components/InfoDriver.astro'
+
+export async function getStaticPaths() {
+  const drivers = data.teams.flatMap((team) => team.drivers)
+  return drivers.map((driver) => ({
+    params: { id: driver.name.replaceAll(' ', '-').toLowerCase().toString() },
+    props: { driver }
+  }))
+}
+
+const { driver } = Astro.props
+
+const bgColors = [
+  'bg-[#294961]/30',
+  'bg-[#1f363b]/30',
+  'bg-[#732b40]/30',
+  'bg-[#565862]/30',
+  'bg-[#246d31]/30',
+  'bg-[#704c38]/30',
+  'bg-[#2f6f71]/30',
+  'bg-[#435364]/30',
+  'bg-[#34476c]/30',
+  'bg-[#355f74]/30'
+]
+---
+
+<Layout>
+  <Header
+    firstAnchorRef='/#schedule'
+    secondAnchorRef='/#results'
+    thirdAnchorRef='/#teams'
+    fourAnchorRef='/#drivers'
+  />
+  <main class='max-w-6xl px-2 lg:px-10 mx-auto mt-14 md:mt-0'>
+    <SectionContainer
+      class='flex flex-col items-center justify-center pt-90 md:pt-70 pb-20 lg:pt-30'
+    >
+      <div
+        class='grid grid-cols-1 lg:grid-cols-[repeat(2,1fr)] grid-rows-[repeat(2,auto)] lg:grid-rows-1 gap-10'
+      >
+        <div
+          class='flex flex-col items-center justify-center gap-y-4 p-4 mt-60'
+        >
+          <div
+            class={`cursor-default flex flex-col items-center justify-center w-[350px] md:w-[420px] h-[100px] hover:scale-110 transition-transform duration-300 ease-in-out group`}
+          >
+            <div class='absolute'>
+              <img
+                transition:name='driverImage'
+                src={driver.driverImage}
+                alt={driver.name}
+                class={`w-[350px] md:w-[420px] object-contain -translate-y-54 md:-translate-y-64`}
+              />
+            </div>
+
+            <div
+              class={`flex flex-col items-center justify-center gap-y-2 py-4 w-full ${
+                bgColors[Math.floor((driver.id - 1) / 2)]
+              } transition-colors duration-300 ease-in-out backdrop-blur-md rounded-xl`}
+            >
+              <h3 class='text-neutral-100 text-3xl md:text-4xl font-semibold'>
+                {driver.fullName}
+              </h3>
+              <div class='flex flex-row items-center justify-center gap-x-4'>
+                <h3 class='text-neutral-100 text-3xl md:text-4xl font-semibold'>
+                  {driver.raceNumber}
+                </h3>
+                <img
+                  src={driver.countryFlag}
+                  alt={driver.countryFlag}
+                  class='h-8 object-contain'
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class='flex flex-col items-center justify-center gap-y-2 p-4 text-neutral-100'
+        >
+          <div
+            class='relative flex items-center justify-center group hover:animate-heartbeat hover:scale-105 transition-transform duration-500 ease-in-out'
+          >
+            <img
+              src={driver.helmetImage}
+              alt={driver.name}
+              class='h-[330px] object-contain blur-sm opacity-50
+             transition duration-500 ease-in-out group-hover:scale-130
+              delay-200 group-hover:opacity-0'
+            />
+            <div class='absolute'>
+              <img
+                src={driver.helmetImage}
+                alt={driver.name}
+                class='h-[300px] object-contain'
+              />
+            </div>
+          </div>
+
+          <div
+            class={`flex flex-col items-center justify-center gap-y-1 p-2 rounded-xl text-neutral-100 ${bgColors[Math.floor((driver.id - 1) / 2)]}`}
+          >
+            <InfoDriver title='Equipo' content={driver.team} />
+            <InfoDriver title='Nacionalidad' content={driver.country} />
+            <InfoDriver title='Podio' content={driver.podiums} />
+            <InfoDriver title='Victorias' content={driver.wins} />
+            <InfoDriver
+              title='Puntos obtenidos en las temporadas'
+              content={driver.points}
+            />
+            <InfoDriver
+              title='Puntos obtenidos en la temporada'
+              content={driver.currentPointsDWC}
+            />
+            <InfoDriver
+              title='Grans Prix entrado'
+              content={driver.grandsPrixEntered}
+            />
+            <InfoDriver
+              title='Campeonato Mundial'
+              content={driver.worldChampionships}
+            />
+            <InfoDriver
+              title='Posición más alta'
+              content={driver.highestRaceFinish}
+            />
+            <InfoDriver
+              title='Fecha de nacimiento'
+              content={driver.dateOfBirth}
+            />
+            <InfoDriver
+              title='Lugar de nacimiento'
+              content={driver.placeOfBirth}
+            />
+            <InfoDriver title='Edad' content={driver.age} />
+            <InfoDriver title='Carrera de Local' content={driver.homeRace} />
+          </div>
+        </div>
+      </div>
+    </SectionContainer>
+  </main>
+</Layout>

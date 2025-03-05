@@ -1,0 +1,202 @@
+---
+import Layout from '@/layouts/Layout.astro'
+import Header from '@/sections/Header.astro'
+import data from '@/data/f1-info.json'
+import SectionContainer from '@/sections/SectionContainer.astro'
+import TeamDriver from '@/components/TeamDriver'
+import TeamRowInfo from '@/components/TeamRowInfo.astro'
+
+export async function getStaticPaths() {
+  return data.teams.map((team) => ({
+    params: { id: team.name.replaceAll(' ', '-').toLowerCase().toString() },
+    props: { team }
+  }))
+}
+
+const { team } = Astro.props
+
+const textColors = [
+  'group-hover:text-[#01a0e8]',
+  'group-hover:text-[#239970]',
+  'group-hover:text-[#e90021]',
+  'group-hover:text-[#b7bbbd]',
+  'group-hover:text-[#53e253]',
+  'group-hover:text-[#fe8001]',
+  'group-hover:text-[#27eecd]',
+  'group-hover:text-[#1535cb]',
+  'group-hover:text-[#3671c6]',
+  'group-hover:text-[#1664d4]'
+]
+
+const bgColors = [
+  'bg-[#294961]/30',
+  'bg-[#1f363b]/30',
+  'bg-[#732b40]/30',
+  'bg-[#565862]/30',
+  'bg-[#246d31]/30',
+  'bg-[#704c38]/30',
+  'bg-[#2f6f71]/30',
+  'bg-[#435364]/30',
+  'bg-[#34476c]/30',
+  'bg-[#355f74]/30'
+]
+
+const gradientColors = [
+  'from-[#fe88bc]/60 via-[#fe88bc]/50',
+  'from-[#1f363b] via-[#1f363b]',
+  'from-[#732b40] via-[#732b40]',
+  'from-[#fefffe]/90 via-[#fefffe]/80',
+  'from-[#246d31] via-[#246d31]',
+  'from-[#704c38] via-[#704c38]',
+  'from-[#2f6f71] via-[#2f6f71]',
+  'from-[#435364] via-[#435364]',
+  'from-[#34476c] via-[#34476c]',
+  'from-[#355f74] via-[#355f74]'
+]
+---
+
+<Layout>
+  <Header
+    firstAnchorRef='/#schedule'
+    secondAnchorRef='/#results'
+    thirdAnchorRef='/#teams'
+    fourAnchorRef='/#drivers'
+  />
+  <main class='max-w-6xl px-2 lg:px-10 mx-auto mt-14 md:mt-0'>
+    <SectionContainer
+      class='flex flex-col items-center justify-center py-20 h-screen'
+    >
+      <div
+        class='flex flex-col items-center justify-center gap-y-18 text-center cursor-default text-neutral-100 hover:-translate-y-2 transition duration-500 ease-in-out group'
+      >
+        <div class='relative'>
+          <h1
+            class='font-bold text-4xl md:text-6xl italic blur-sm opacity-20 translate-y-4 translate-x-4
+         transition duration-500 ease-in-out group-hover:scale-130
+          delay-200 group-hover:opacity-0'
+          >
+            {team.fullName}
+          </h1>
+          <div
+            class={`absolute inset-0 flex items-center justify-center ${textColors[team.id - 1]} transition-colors duration-500 ease-in-out`}
+          >
+            <h1 class='font-bold text-4xl md:text-6xl italic'>
+              {team.fullName}
+            </h1>
+          </div>
+        </div>
+        <div class='flex flex-col items-center justify-center'>
+          <div
+            class={`flex items-center justify-center px-4 py-2 h-70 md:h-84 w-[400px] md:w-[700px] bg-gradient-to-b ${gradientColors[team.id - 1]} to-transparent transition-colors duration-500 ease-in-out blur-sm rounded-t-full`}
+          >
+          </div>
+          <div class='absolute flex items-center justify-center px-4 py-2'>
+            <img
+              src={team.logoWithName}
+              alt={team.name}
+              class='h-40 w-[300px] md:h-60 md:w-[500px] object-contain'
+            />
+          </div>
+        </div>
+        <div class='absolute'>
+          <img
+            transition:name='chassisImage'
+            src={team.chassisImage}
+            alt={team.chassis}
+            class='h-[110px] md:h-[139px] object-contain translate-y-58'
+          />
+        </div>
+      </div>
+    </SectionContainer>
+
+    <SectionContainer
+      class='flex flex-col items-center justify-center pb-20 gap-y-14 text-neutral-100'
+    >
+      <div
+        class='flex flex-col items-center justify-center gap-y-4 cursor-default'
+      >
+        <h2 class='font-bold text-6xl'>
+          {team.name}
+        </h2>
+        <h3 class='font-semibold text-4xl'>
+          {team.chassis}
+        </h3>
+      </div>
+
+      <div
+        class={`flex flex-col items-center justify-center gap-y-6 text-neutral-100 max-w-3xl text-center p-6 ${bgColors[team.id - 1]} rounded-xl`}
+      >
+        <p class='text-md font-medium text-pretty text-neutral-200'>
+          {team.description}
+        </p>
+      </div>
+
+      <div
+        class='grid grid-cols-[repeat(1,auto)] lg:grid-cols-[repeat(4,1fr)] grid-rows-[repeat(3,auto)] lg:grid-rows-[repeat(1,auto)] gap-4 items-center justify-center'
+      >
+        <div
+          class='order-2 lg:order-1 flex items-center justify-center w-full mt-50 lg:pt-0'
+        >
+          <TeamDriver driver={team.drivers[0]} client:load />
+        </div>
+
+        <div
+          class='order-1 lg:order-2 lg:col-span-2 flex flex-col items-center justify-center gap-y-2'
+        >
+          <TeamRowInfo id={team.id - 1} title='Base: ' content={team.base} />
+          <TeamRowInfo
+            id={team.id - 1}
+            title='GP local: '
+            content={team.homeRace}
+          />
+          <TeamRowInfo
+            id={team.id - 1}
+            title='Team Chief: '
+            content={team.teamChief}
+          />
+          <TeamRowInfo
+            id={team.id - 1}
+            title='Technical Chief: '
+            content={team.technicalChief}
+          />
+          <TeamRowInfo
+            id={team.id - 1}
+            title='Unidad de Potencia'
+            content={team.powerUnit}
+          />
+          <TeamRowInfo
+            id={team.id - 1}
+            title='Primera temporada: '
+            content={team.firstTeamEntry}
+          />
+          <TeamRowInfo
+            id={team.id - 1}
+            title='Campeonatos Mundiales: '
+            content={team.worldChampionship}
+          />
+          <TeamRowInfo
+            id={team.id - 1}
+            title='Posición más alta en un GP: '
+            content={team.highestRaceFinish}
+          />
+          <TeamRowInfo
+            id={team.id - 1}
+            title='Pole position: '
+            content={team.polePosition}
+          />
+          <TeamRowInfo
+            id={team.id - 1}
+            title='Vuelta más rápida: '
+            content={team.fastestLaps}
+          />
+        </div>
+
+        <div
+          class='order-3 lg:order-3 flex items-center justify-center w-full mt-50 lg:pt-0'
+        >
+          <TeamDriver driver={team.drivers[1]} client:load />
+        </div>
+      </div>
+    </SectionContainer>
+  </main>
+</Layout>

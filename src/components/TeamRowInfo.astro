@@ -1,0 +1,23 @@
+---
+const { id, title, content } = Astro.props
+
+const bgColors = [
+  'bg-[#294961]/40',
+  'bg-[#1f363b]/40',
+  'bg-[#732b40]/40',
+  'bg-[#565862]/40',
+  'bg-[#246d31]/40',
+  'bg-[#704c38]/40',
+  'bg-[#2f6f71]/40',
+  'bg-[#435364]/40',
+  'bg-[#34476c]/40',
+  'bg-[#355f74]/40'
+]
+---
+
+<div
+  class={`flex flex-row items-center justify-between cursor-default gap-x-4 w-full px-2 py-1 rounded-xl ${bgColors[id]} backdrop-blur-sm border-0`}
+>
+  <h2 class='font-normal text-md text-neutral-200'>{title}</h2>
+  <h3 class='font-semibold text-lg text-start'>{content}</h3>
+</div>
