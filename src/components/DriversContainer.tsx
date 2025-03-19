@@ -28,35 +28,37 @@ const DriversContainer = ({ teams }: driversContainerProps) => {
   return (
     <div className='flex flex-col items-center justify-center'>
       <div className='grid md:grid-cols-[repeat(2,1fr)] md:grid-rows-[repeat(5,auto)] gap-x-4 gap-y-2'>
-        {teams.map((team) => (
-          <div
-            key={team.id}
-            className={`text-white flex flex-row items-center justify-center gap-2 ${
-              padding[team.id - 1]
-            }`}
-          >
-            <MiniDriverCard
-              driver={team.drivers[0]}
-              teamId={team.id}
-              onHover={() => setPreviewDriver(team.drivers[0])}
-            />
-            <a
-              href={`/team/${team.name.replaceAll(' ', '-').toLowerCase()}`}
-              className='absolute'
+        {teams
+          .sort((a, b) => a.id - b.id)
+          .map((team) => (
+            <div
+              key={team.id}
+              className={`text-white flex flex-row items-center justify-center gap-2 ${
+                padding[team.id - 1]
+              }`}
             >
-              <img
-                src={team.logo}
-                alt={team.name}
-                className='h-10 object-contain transition-transform duration-300 ease-in-out hover:scale-125 hover:animate-custom-pulse'
+              <MiniDriverCard
+                driver={team.drivers[0]}
+                teamId={team.id}
+                onHover={() => setPreviewDriver(team.drivers[0])}
               />
-            </a>
-            <MiniDriverCard
-              driver={team.drivers[1]}
-              teamId={team.id}
-              onHover={() => setPreviewDriver(team.drivers[1])}
-            />
-          </div>
-        ))}
+              <a
+                href={`/team/${team.name.replaceAll(' ', '-').toLowerCase()}`}
+                className='absolute'
+              >
+                <img
+                  src={team.logo}
+                  alt={team.name}
+                  className='h-10 object-contain transition-transform duration-300 ease-in-out hover:scale-125 hover:animate-custom-pulse'
+                />
+              </a>
+              <MiniDriverCard
+                driver={team.drivers[1]}
+                teamId={team.id}
+                onHover={() => setPreviewDriver(team.drivers[1])}
+              />
+            </div>
+          ))}
       </div>
 
       <DriverPreview previewDriver={previewDriver} />

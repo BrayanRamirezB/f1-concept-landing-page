@@ -19,6 +19,18 @@ export interface Circuit {
   raceDistance: string
   lapRecord: string
   driverLapRecord: string
+  currentStatus: 'end' | 'onGoing' | 'notStarted'
+  podium: Pick<
+    Driver,
+    | 'id'
+    | 'name'
+    | 'fullName'
+    | 'raceNumber'
+    | 'team'
+    | 'country'
+    | 'countryFlag'
+    | 'driverImage'
+  >[]
 }
 
 export interface Team {

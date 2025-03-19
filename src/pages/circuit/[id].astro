@@ -3,6 +3,7 @@ import Layout from '@/layouts/Layout.astro'
 import Header from '@/sections/Header.astro'
 import data from '@/data/f1-info.json'
 import SectionContainer from '@/sections/SectionContainer.astro'
+import Podium from '@/components/Podium'
 
 export async function getStaticPaths() {
   return data.circuits.map((circuit) => ({
@@ -69,6 +70,10 @@ const { circuit } = Astro.props
           {circuit.generalDate}
         </h3>
       </div>
+    </SectionContainer>
+
+    <SectionContainer class='flex items-center justify-center pb-20'>
+      <Podium podium={circuit.podium} client:load />
     </SectionContainer>
 
     <SectionContainer

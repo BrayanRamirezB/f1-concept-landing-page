@@ -37,11 +37,11 @@ const TeamsContainer = ({ teams }: teamsProps) => {
 
   return (
     <div className='grid grid-cols-[repeat(4,1fr)] grid-rows-[repeat(3,auto)] gap-4'>
-      {teams.slice(0, 5).map((team, index) => (
+      {teams.slice(0, 5).map((team) => (
         <TeamLogoCard
           key={team.id}
           team={team}
-          index={index}
+          index={team.id - 1}
           onHover={() => setPreviewTeam(team)}
         />
       ))}
@@ -88,11 +88,11 @@ const TeamsContainer = ({ teams }: teamsProps) => {
         </a>
       </div>
 
-      {teams.slice(5).map((team, index) => (
+      {teams.slice(5).map((team) => (
         <TeamLogoCard
           key={team.id}
           team={team}
-          index={5 + index}
+          index={team.id - 1}
           onHover={() => setPreviewTeam(team)}
         />
       ))}

@@ -33,7 +33,7 @@
           "podiums": "5",
           "wins": "1",
           "points": "436",
-          "grandsPrixEntered": "154",
+          "grandsPrixEntered": "155",
           "worldChampionships": "0",
           "highestRaceFinish": "1 (x1)",
           "highestGridPosition": "2",
@@ -56,10 +56,10 @@
           "podiums": "0",
           "wins": "0",
           "points": "0",
-          "grandsPrixEntered": "1",
+          "grandsPrixEntered": "2",
           "worldChampionships": "0",
           "highestRaceFinish": "15 (x1)",
-          "highestGridPosition": "17",
+          "highestGridPosition": "14",
           "dateOfBirth": "20/01/2003",
           "age": "22",
           "placeOfBirth": "Gold Coast, Australia",
@@ -85,7 +85,7 @@
       "powerUnit": "Mercedes",
       "firstTeamEntry": "2018",
       "worldChampionship": "0",
-      "currentPointsWC": 0,
+      "currentPointsWC": 8,
       "highestRaceFinish": "1 (x1)",
       "polePosition": "1",
       "fastestLaps": "3",
@@ -103,7 +103,7 @@
           "podiums": "106",
           "wins": "32",
           "points": "2337",
-          "grandsPrixEntered": "404",
+          "grandsPrixEntered": "405",
           "worldChampionships": "2",
           "highestRaceFinish": "1 (x32)",
           "highestGridPosition": "1",
@@ -125,8 +125,8 @@
           "countryFlag": "/images/flags/Canada.webp",
           "podiums": "3",
           "wins": "0",
-          "points": "292",
-          "grandsPrixEntered": "167",
+          "points": "300",
+          "grandsPrixEntered": "168",
           "worldChampionships": "0",
           "highestRaceFinish": "3 (x3)",
           "highestGridPosition": "1",
@@ -136,7 +136,7 @@
           "helmetImage": "/images/helmets/stroll.webp",
           "driverImage": "/images/drivers/lanstr01.webp",
           "homeRace": "Circuit Gilles-Villeneuve",
-          "currentPointsDWC": 0
+          "currentPointsDWC": 8
         }
       ]
     },
@@ -155,7 +155,7 @@
       "powerUnit": "Ferrari",
       "firstTeamEntry": "1950",
       "worldChampionship": "16",
-      "currentPointsWC": 0,
+      "currentPointsWC": 5,
       "highestRaceFinish": "1 (x249)",
       "polePosition": "253",
       "fastestLaps": "263",
@@ -172,8 +172,8 @@
           "countryFlag": "/images/flags/Monaco.webp",
           "podiums": "43",
           "wins": "8",
-          "points": "1430",
-          "grandsPrixEntered": "149",
+          "points": "1434",
+          "grandsPrixEntered": "150",
           "worldChampionships": "0",
           "highestRaceFinish": "1 (x8)",
           "highestGridPosition": "1",
@@ -183,7 +183,7 @@
           "helmetImage": "/images/helmets/leclerc.webp",
           "driverImage": "/images/drivers/chalec01.webp",
           "homeRace": "Circuit de Monaco",
-          "currentPointsDWC": 0
+          "currentPointsDWC": 4
         },
         {
           "id": 6,
@@ -195,8 +195,8 @@
           "countryFlag": "/images/flags/UnitedKingdom.webp",
           "podiums": "202",
           "wins": "105",
-          "points": "4862.5",
-          "grandsPrixEntered": "356",
+          "points": "4863.5",
+          "grandsPrixEntered": "357",
           "worldChampionships": "7",
           "highestRaceFinish": "1 (x105)",
           "highestGridPosition": "1",
@@ -206,7 +206,7 @@
           "helmetImage": "/images/helmets/hamilton.webp",
           "driverImage": "/images/drivers/lewham01.webp",
           "homeRace": "Silverstone Circuit",
-          "currentPointsDWC": 0
+          "currentPointsDWC": 1
         }
       ]
     },
@@ -243,7 +243,7 @@
           "podiums": "4",
           "wins": "1",
           "points": "445",
-          "grandsPrixEntered": "156",
+          "grandsPrixEntered": "157",
           "worldChampionships": "0",
           "highestRaceFinish": "1 (x1)",
           "highestGridPosition": "3",
@@ -295,7 +295,7 @@
       "powerUnit": "Ferrari",
       "firstTeamEntry": "1993",
       "worldChampionship": "0",
-      "currentPointsWC": 0,
+      "currentPointsWC": 6,
       "highestRaceFinish": "1 (x1)",
       "polePosition": "1",
       "fastestLaps": "7",
@@ -312,8 +312,8 @@
           "countryFlag": "/images/flags/Germany.webp",
           "podiums": "0",
           "wins": "0",
-          "points": "571",
-          "grandsPrixEntered": "230",
+          "points": "577",
+          "grandsPrixEntered": "231",
           "worldChampionships": "0",
           "highestRaceFinish": "4 (x3)",
           "highestGridPosition": "1",
@@ -323,7 +323,7 @@
           "helmetImage": "/images/helmets/hulkenberg.webp",
           "driverImage": "/images/drivers/nichul01.webp",
           "homeRace": "Hockenheimring Baden-Württemberg",
-          "currentPointsDWC": 0
+          "currentPointsDWC": 6
         },
         {
           "id": 10,
@@ -336,10 +336,10 @@
           "podiums": "0",
           "wins": "0",
           "points": "0",
-          "grandsPrixEntered": "0",
+          "grandsPrixEntered": "1",
           "worldChampionships": "0",
-          "highestRaceFinish": "0 (x0)",
-          "highestGridPosition": "0",
+          "highestRaceFinish": "DNF",
+          "highestGridPosition": "15",
           "dateOfBirth": "14/10/2004",
           "age": "20",
           "placeOfBirth": "São Paulo, Brazil",
@@ -365,7 +365,7 @@
       "powerUnit": "Mercedes",
       "firstTeamEntry": "1966",
       "worldChampionship": "9",
-      "currentPointsWC": 0,
+      "currentPointsWC": 27,
       "highestRaceFinish": "1 (x189)",
       "polePosition": "164",
       "fastestLaps": "172",
@@ -382,8 +382,8 @@
           "countryFlag": "/images/flags/australia-flag.webp",
           "podiums": "10",
           "wins": "2",
-          "points": "389",
-          "grandsPrixEntered": "46",
+          "points": "391",
+          "grandsPrixEntered": "47",
           "worldChampionships": "0",
           "highestRaceFinish": "1 (x2)",
           "highestGridPosition": "2",
@@ -393,7 +393,7 @@
           "helmetImage": "/images/helmets/piastri.webp",
           "driverImage": "/images/drivers/oscpia01.webp",
           "homeRace": "Albert Park Grand Prix Circuit",
-          "currentPointsDWC": 0
+          "currentPointsDWC": 2
         },
         {
           "id": 12,
@@ -403,12 +403,12 @@
           "team": "McLaren",
           "country": "United Kingdom",
           "countryFlag": "/images/flags/UnitedKingdom.webp",
-          "podiums": "26",
-          "wins": "4",
-          "points": "1007",
-          "grandsPrixEntered": "128",
+          "podiums": "27",
+          "wins": "5",
+          "points": "1032",
+          "grandsPrixEntered": "129",
           "worldChampionships": "0",
-          "highestRaceFinish": "1 (x4)",
+          "highestRaceFinish": "1 (x5)",
           "highestGridPosition": "1",
           "dateOfBirth": "13/11/1999",
           "age": "25",
@@ -416,7 +416,7 @@
           "helmetImage": "/images/helmets/norris.webp",
           "driverImage": "/images/drivers/lannor01.webp",
           "homeRace": "Silverstone Circuit",
-          "currentPointsDWC": 0
+          "currentPointsDWC": 25
         }
       ]
     },
@@ -435,7 +435,7 @@
       "powerUnit": "Mercedes",
       "firstTeamEntry": "1970",
       "worldChampionship": "8",
-      "currentPointsWC": 0,
+      "currentPointsWC": 27,
       "highestRaceFinish": "1 (x120)",
       "polePosition": "133",
       "fastestLaps": "100",
@@ -450,10 +450,10 @@
           "team": "Mercedes",
           "country": "United Kingdom",
           "countryFlag": "/images/flags/UnitedKingdom.webp",
-          "podiums": "15",
+          "podiums": "16",
           "wins": "3",
-          "points": "714",
-          "grandsPrixEntered": "128",
+          "points": "729",
+          "grandsPrixEntered": "129",
           "worldChampionships": "0",
           "highestRaceFinish": "1 (x3)",
           "highestGridPosition": "1",
@@ -463,7 +463,7 @@
           "helmetImage": "/images/helmets/russell.webp",
           "driverImage": "/images/drivers/georus01.webp",
           "homeRace": "Silverstone Circuit",
-          "currentPointsDWC": 0
+          "currentPointsDWC": 15
         },
         {
           "id": 14,
@@ -475,18 +475,18 @@
           "countryFlag": "/images/flags/Italy.webp",
           "podiums": "0",
           "wins": "0",
-          "points": "0",
-          "grandsPrixEntered": "0",
+          "points": "12",
+          "grandsPrixEntered": "1",
           "worldChampionships": "0",
-          "highestRaceFinish": "0 (x0)",
-          "highestGridPosition": "0",
+          "highestRaceFinish": "4 (x1)",
+          "highestGridPosition": "16",
           "dateOfBirth": "25/08/2006",
           "age": "19",
           "placeOfBirth": "Bologna, Italy",
           "helmetImage": "/images/helmets/antonelli.webp",
           "driverImage": "/images/drivers/andant01.webp",
           "homeRace": "Autodromo Nazionale Monza",
-          "currentPointsDWC": 0
+          "currentPointsDWC": 12
         }
       ]
     },
@@ -523,7 +523,7 @@
           "podiums": "0",
           "wins": "0",
           "points": "91",
-          "grandsPrixEntered": "90",
+          "grandsPrixEntered": "91",
           "worldChampionships": "0",
           "highestRaceFinish": "4 (x1)",
           "highestGridPosition": "3",
@@ -546,10 +546,10 @@
           "podiums": "0",
           "wins": "0",
           "points": "0",
-          "grandsPrixEntered": "0",
+          "grandsPrixEntered": "1",
           "worldChampionships": "0",
-          "highestRaceFinish": "0",
-          "highestGridPosition": "0",
+          "highestRaceFinish": "DNF",
+          "highestGridPosition": "11",
           "dateOfBirth": "28/09/2004",
           "age": "20",
           "placeOfBirth": "Paris, France",
@@ -575,7 +575,7 @@
       "powerUnit": "Honda RBPT",
       "firstTeamEntry": "1997",
       "worldChampionship": "6",
-      "currentPointsWC": 0,
+      "currentPointsWC": 18,
       "highestRaceFinish": "1 (x122)",
       "polePosition": "103",
       "fastestLaps": "99",
@@ -590,12 +590,12 @@
           "team": "Red Bull",
           "country": "Netherlands",
           "countryFlag": "/images/flags/Netherlands.webp",
-          "podiums": "112",
+          "podiums": "113",
           "wins": "63",
-          "points": "3023.5",
-          "grandsPrixEntered": "209",
+          "points": "3041.5",
+          "grandsPrixEntered": "210",
           "worldChampionships": "4",
-          "highestRaceFinish": "1 (x63",
+          "highestRaceFinish": "1 (x63)",
           "highestGridPosition": "1",
           "dateOfBirth": "30/09/1997",
           "age": "27",
@@ -603,7 +603,7 @@
           "helmetImage": "/images/helmets/verstappen.webp",
           "driverImage": "/images/drivers/maxver01.webp",
           "homeRace": "Circuit Zandvoort",
-          "currentPointsDWC": 0
+          "currentPointsDWC": 18
         },
         {
           "id": 18,
@@ -616,7 +616,7 @@
           "podiums": "0",
           "wins": "0",
           "points": "6",
-          "grandsPrixEntered": "11",
+          "grandsPrixEntered": "12",
           "worldChampionships": "0",
           "highestRaceFinish": "9 (x3)",
           "highestGridPosition": "5",
@@ -645,7 +645,7 @@
       "powerUnit": "Mercedes",
       "firstTeamEntry": "1978",
       "worldChampionship": "9",
-      "currentPointsWC": 0,
+      "currentPointsWC": 10,
       "highestRaceFinish": "1 (x114)",
       "polePosition": "128",
       "fastestLaps": "133",
@@ -663,7 +663,7 @@
           "podiums": "27",
           "wins": "4",
           "points": "1272.5",
-          "grandsPrixEntered": "208",
+          "grandsPrixEntered": "209",
           "worldChampionships": "0",
           "highestRaceFinish": "1 (x4)",
           "highestGridPosition": "1",
@@ -685,8 +685,8 @@
           "countryFlag": "/images/flags/Thailand.webp",
           "podiums": "2",
           "wins": "0",
-          "points": "240",
-          "grandsPrixEntered": "105",
+          "points": "250",
+          "grandsPrixEntered": "106",
           "worldChampionships": "0",
           "highestRaceFinish": "3 (x2)",
           "highestGridPosition": "4",
@@ -696,7 +696,7 @@
           "helmetImage": "/images/helmets/albon.webp",
           "driverImage": "/images/drivers/alealb01.webp",
           "homeRace": "Silverstone Circuit",
-          "currentPointsDWC": 0
+          "currentPointsDWC": 10
         }
       ]
     }
@@ -717,7 +717,40 @@
       "circuitLength": "5.278 km",
       "raceDistance": "306.124 km",
       "lapRecord": "1:19.813",
-      "driverLapRecord": "Charles Leclerc (2024)"
+      "driverLapRecord": "Charles Leclerc (2024)",
+      "currentStatus": "end",
+      "podium": [
+        {
+          "id": 12,
+          "name": "Norris",
+          "fullName": "Lando Norris",
+          "raceNumber": "4",
+          "team": "McLaren",
+          "country": "United Kingdom",
+          "countryFlag": "/images/flags/UnitedKingdom.webp",
+          "driverImage": "/images/drivers/lannor01.webp"
+        },
+        {
+          "id": 17,
+          "name": "Verstappen",
+          "fullName": "Max Verstappen",
+          "raceNumber": "1",
+          "team": "Red Bull",
+          "country": "Netherlands",
+          "countryFlag": "/images/flags/Netherlands.webp",
+          "driverImage": "/images/drivers/maxver01.webp"
+        },
+        {
+          "id": 13,
+          "name": "Russell",
+          "fullName": "George Russell",
+          "raceNumber": "63",
+          "team": "Mercedes",
+          "country": "United Kingdom",
+          "countryFlag": "/images/flags/UnitedKingdom.webp",
+          "driverImage": "/images/drivers/georus01.webp"
+        }
+      ]
     },
     {
       "id": 2,
@@ -734,7 +767,9 @@
       "circuitLength": "5.451 km",
       "raceDistance": "305.066 km",
       "lapRecord": "1:32.238",
-      "driverLapRecord": "Michael Schumacher (2004)"
+      "driverLapRecord": "Michael Schumacher (2004)",
+      "currentStatus": "onGoing",
+      "podium": []
     },
     {
       "id": 3,
@@ -751,7 +786,9 @@
       "circuitLength": "5.807 km",
       "raceDistance": "307.471 km",
       "lapRecord": "1:30.983",
-      "driverLapRecord": "Lewis Hamilton (2019)"
+      "driverLapRecord": "Lewis Hamilton (2019)",
+      "currentStatus": "notStarted",
+      "podium": []
     },
     {
       "id": 4,
@@ -768,7 +805,9 @@
       "circuitLength": "5.412 km",
       "raceDistance": "308.238 km",
       "lapRecord": "1:31.447",
-      "driverLapRecord": "Pedro de la Rosa (2005)"
+      "driverLapRecord": "Pedro de la Rosa (2005)",
+      "currentStatus": "notStarted",
+      "podium": []
     },
     {
       "id": 5,
@@ -785,7 +824,9 @@
       "circuitLength": "6.174 km",
       "raceDistance": "308.45 km",
       "lapRecord": "1:30.734",
-      "driverLapRecord": "Lewis Hamilton (2021)"
+      "driverLapRecord": "Lewis Hamilton (2021)",
+      "currentStatus": "notStarted",
+      "podium": []
     },
     {
       "id": 6,
@@ -802,7 +843,9 @@
       "circuitLength": "5.412 km",
       "raceDistance": "308.326 km",
       "lapRecord": "1:29.708",
-      "driverLapRecord": "Max Verstappen (2023)"
+      "driverLapRecord": "Max Verstappen (2023)",
+      "currentStatus": "notStarted",
+      "podium": []
     },
     {
       "id": 7,
@@ -819,7 +862,9 @@
       "circuitLength": "4.909 km",
       "raceDistance": "309.049 km",
       "lapRecord": "1:15.484",
-      "driverLapRecord": "Lewis Hamilton (2020)"
+      "driverLapRecord": "Lewis Hamilton (2020)",
+      "currentStatus": "notStarted",
+      "podium": []
     },
     {
       "id": 8,
@@ -836,7 +881,9 @@
       "circuitLength": "3.337 km",
       "raceDistance": "260.286 km",
       "lapRecord": "1:12.909",
-      "driverLapRecord": "Lewis Hamilton (2021)"
+      "driverLapRecord": "Lewis Hamilton (2021)",
+      "currentStatus": "notStarted",
+      "podium": []
     },
     {
       "id": 9,
@@ -853,7 +900,9 @@
       "circuitLength": "4.657 km",
       "raceDistance": "307.2336 km",
       "lapRecord": "1:16.330",
-      "driverLapRecord": "Max Verstappen (2023)"
+      "driverLapRecord": "Max Verstappen (2023)",
+      "currentStatus": "notStarted",
+      "podium": []
     },
     {
       "id": 10,
@@ -870,7 +919,9 @@
       "circuitLength": "4.361 km",
       "raceDistance": "305.27 km",
       "lapRecord": "1:13.078",
-      "driverLapRecord": "Valtteri Bottas (2019)"
+      "driverLapRecord": "Valtteri Bottas (2019)",
+      "currentStatus": "notStarted",
+      "podium": []
     },
     {
       "id": 11,
@@ -887,7 +938,9 @@
       "circuitLength": "4.318 km",
       "raceDistance": "306.452 km",
       "lapRecord": "1:05.619",
-      "driverLapRecord": "Carlos Sainz (2020)"
+      "driverLapRecord": "Carlos Sainz (2020)",
+      "currentStatus": "notStarted",
+      "podium": []
     },
     {
       "id": 12,
@@ -904,7 +957,9 @@
       "circuitLength": "5.891 km",
       "raceDistance": "306.198 km",
       "lapRecord": "1:27.097",
-      "driverLapRecord": "Max Verstappen (2020)"
+      "driverLapRecord": "Max Verstappen (2020)",
+      "currentStatus": "notStarted",
+      "podium": []
     },
     {
       "id": 13,
@@ -921,7 +976,9 @@
       "circuitLength": "7.004 km",
       "raceDistance": "308.052 km",
       "lapRecord": "1:44.701",
-      "driverLapRecord": "Sergio Checo Pérez (2024)"
+      "driverLapRecord": "Sergio Checo Pérez (2024)",
+      "currentStatus": "notStarted",
+      "podium": []
     },
     {
       "id": 14,
@@ -938,7 +995,9 @@
       "circuitLength": "4.381 km",
       "raceDistance": "306.63 km",
       "lapRecord": "1:16.627",
-      "driverLapRecord": "Lewis Hamilton (2020)"
+      "driverLapRecord": "Lewis Hamilton (2020)",
+      "currentStatus": "notStarted",
+      "podium": []
     },
     {
       "id": 15,
@@ -955,7 +1014,9 @@
       "circuitLength": "4.259 km",
       "raceDistance": "306.587 km",
       "lapRecord": "1:11.097",
-      "driverLapRecord": "Lewis Hamilton (2021)"
+      "driverLapRecord": "Lewis Hamilton (2021)",
+      "currentStatus": "notStarted",
+      "podium": []
     },
     {
       "id": 16,
@@ -972,7 +1033,9 @@
       "circuitLength": "5.793 km",
       "raceDistance": "306.72 km",
       "lapRecord": "1:21.046",
-      "driverLapRecord": "Rubens Barrichello (2004)"
+      "driverLapRecord": "Rubens Barrichello (2004)",
+      "currentStatus": "notStarted",
+      "podium": []
     },
     {
       "id": 17,
@@ -989,7 +1052,9 @@
       "circuitLength": "6.003 km",
       "raceDistance": "306.049 km",
       "lapRecord": "1:43.009",
-      "driverLapRecord": "Charles Leclerc (2019)"
+      "driverLapRecord": "Charles Leclerc (2019)",
+      "currentStatus": "notStarted",
+      "podium": []
     },
     {
       "id": 18,
@@ -1006,7 +1071,9 @@
       "circuitLength": "4.94 km",
       "raceDistance": "306.143 km",
       "lapRecord": "1:34.486",
-      "driverLapRecord": "Daniel Ricciardo (2024)"
+      "driverLapRecord": "Daniel Ricciardo (2024)",
+      "currentStatus": "notStarted",
+      "podium": []
     },
     {
       "id": 19,
@@ -1023,7 +1090,9 @@
       "circuitLength": "5.513 km",
       "raceDistance": "308.405 km",
       "lapRecord": "1:36.169",
-      "driverLapRecord": "Charles Leclerc (2019)"
+      "driverLapRecord": "Charles Leclerc (2019)",
+      "currentStatus": "notStarted",
+      "podium": []
     },
     {
       "id": 20,
@@ -1040,7 +1109,9 @@
       "circuitLength": "4.304 km",
       "raceDistance": "305.354 km",
       "lapRecord": "1:17.774",
-      "driverLapRecord": "Valtteri Bottas (2021)"
+      "driverLapRecord": "Valtteri Bottas (2021)",
+      "currentStatus": "notStarted",
+      "podium": []
     },
     {
       "id": 21,
@@ -1057,7 +1128,9 @@
       "circuitLength": "4.309 km",
       "raceDistance": "305.879 km",
       "lapRecord": "1:10.540",
-      "driverLapRecord": "Valtteri Bottas (2018)"
+      "driverLapRecord": "Valtteri Bottas (2018)",
+      "currentStatus": "notStarted",
+      "podium": []
     },
     {
       "id": 22,
@@ -1074,7 +1147,9 @@
       "circuitLength": "6.201 km",
       "raceDistance": "309.958 km",
       "lapRecord": "1:34.876",
-      "driverLapRecord": "Lando Norris (2024)"
+      "driverLapRecord": "Lando Norris (2024)",
+      "currentStatus": "notStarted",
+      "podium": []
     },
     {
       "id": 23,
@@ -1091,7 +1166,9 @@
       "circuitLength": "5.419 km",
       "raceDistance": "308.611 km",
       "lapRecord": "1:22.384",
-      "driverLapRecord": "Lando Norris (2024)"
+      "driverLapRecord": "Lando Norris (2024)",
+      "currentStatus": "notStarted",
+      "podium": []
     },
     {
       "id": 24,
@@ -1108,7 +1185,9 @@
       "circuitLength": "5.281 km",
       "raceDistance": "306.183 km",
       "lapRecord": "1:25.637",
-      "driverLapRecord": "Kevin Magnussen (2024)"
+      "driverLapRecord": "Kevin Magnussen (2024)",
+      "currentStatus": "notStarted",
+      "podium": []
     }
   ]
 }
