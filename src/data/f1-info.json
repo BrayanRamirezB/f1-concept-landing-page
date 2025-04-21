@@ -918,8 +918,39 @@
       "raceDistance": "308.45 km",
       "lapRecord": "1:30.734",
       "driverLapRecord": "Lewis Hamilton (2021)",
-      "currentStatus": "onGoing",
-      "podium": []
+      "currentStatus": "end",
+      "podium": [
+        {
+          "id": 11,
+          "name": "Piastri",
+          "fullName": "Oscar Piastri",
+          "raceNumber": "81",
+          "team": "McLaren",
+          "country": "Australia",
+          "countryFlag": "/images/flags/australia-flag.webp",
+          "driverImage": "/images/drivers/oscpia01.webp"
+        },
+        {
+          "id": 17,
+          "name": "Verstappen",
+          "fullName": "Max Verstappen",
+          "raceNumber": "1",
+          "team": "Red Bull",
+          "country": "Netherlands",
+          "countryFlag": "/images/flags/Netherlands.webp",
+          "driverImage": "/images/drivers/maxver01.webp"
+        },
+        {
+          "id": 5,
+          "name": "Leclerc",
+          "fullName": "Charles Leclerc",
+          "raceNumber": "16",
+          "team": "Ferrari",
+          "country": "Monaco",
+          "countryFlag": "/images/flags/Monaco.webp",
+          "driverImage": "/images/drivers/chalec01.webp"
+        }
+      ]
     },
     {
       "id": 6,
@@ -937,7 +968,7 @@
       "raceDistance": "308.326 km",
       "lapRecord": "1:29.708",
       "driverLapRecord": "Max Verstappen (2023)",
-      "currentStatus": "notStarted",
+      "currentStatus": "onGoing",
       "podium": []
     },
     {
