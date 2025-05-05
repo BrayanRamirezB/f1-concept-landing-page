@@ -15,7 +15,7 @@
       "powerUnit": "Renault",
       "firstTeamEntry": "1986",
       "worldChampionship": "2",
-      "currentPointsWC": 6,
+      "currentPointsWC": 7,
       "highestRaceFinish": "1 (x21)",
       "polePosition": "20",
       "fastestLaps": "16",
@@ -85,7 +85,7 @@
       "powerUnit": "Mercedes",
       "firstTeamEntry": "2018",
       "worldChampionship": "0",
-      "currentPointsWC": 10,
+      "currentPointsWC": 14,
       "highestRaceFinish": "1 (x1)",
       "polePosition": "1",
       "fastestLaps": "3",
@@ -155,7 +155,7 @@
       "powerUnit": "Ferrari",
       "firstTeamEntry": "1950",
       "worldChampionship": "16",
-      "currentPointsWC": 78,
+      "currentPointsWC": 94,
       "highestRaceFinish": "1 (x249)",
       "polePosition": "253",
       "fastestLaps": "263",
@@ -365,7 +365,7 @@
       "powerUnit": "Mercedes",
       "firstTeamEntry": "1966",
       "worldChampionship": "9",
-      "currentPointsWC": 188,
+      "currentPointsWC": 246,
       "highestRaceFinish": "1 (x193)",
       "polePosition": "167",
       "fastestLaps": "172",
@@ -435,7 +435,7 @@
       "powerUnit": "Mercedes",
       "firstTeamEntry": "1970",
       "worldChampionship": "8",
-      "currentPointsWC": 111,
+      "currentPointsWC": 141,
       "highestRaceFinish": "1 (x120)",
       "polePosition": "133",
       "fastestLaps": "100",
@@ -575,7 +575,7 @@
       "powerUnit": "Honda RBPT",
       "firstTeamEntry": "1997",
       "worldChampionship": "6",
-      "currentPointsWC": 89,
+      "currentPointsWC": 105,
       "highestRaceFinish": "1 (x124)",
       "polePosition": "104",
       "fastestLaps": "99",
@@ -645,7 +645,7 @@
       "powerUnit": "Mercedes",
       "firstTeamEntry": "1978",
       "worldChampionship": "9",
-      "currentPointsWC": 25,
+      "currentPointsWC": 37,
       "highestRaceFinish": "1 (x114)",
       "polePosition": "128",
       "fastestLaps": "133",
@@ -968,8 +968,39 @@
       "raceDistance": "308.326 km",
       "lapRecord": "1:29.708",
       "driverLapRecord": "Max Verstappen (2023)",
-      "currentStatus": "onGoing",
-      "podium": []
+      "currentStatus": "end",
+      "podium": [
+        {
+          "id": 11,
+          "name": "Piastri",
+          "fullName": "Oscar Piastri",
+          "raceNumber": "81",
+          "team": "McLaren",
+          "country": "Australia",
+          "countryFlag": "/images/flags/australia-flag.webp",
+          "driverImage": "/images/drivers/oscpia01.webp"
+        },
+        {
+          "id": 12,
+          "name": "Norris",
+          "fullName": "Lando Norris",
+          "raceNumber": "4",
+          "team": "McLaren",
+          "country": "United Kingdom",
+          "countryFlag": "/images/flags/UnitedKingdom.webp",
+          "driverImage": "/images/drivers/lannor01.webp"
+        },
+        {
+          "id": 13,
+          "name": "Russell",
+          "fullName": "George Russell",
+          "raceNumber": "63",
+          "team": "Mercedes",
+          "country": "United Kingdom",
+          "countryFlag": "/images/flags/UnitedKingdom.webp",
+          "driverImage": "/images/drivers/georus01.webp"
+        }
+      ]
     },
     {
       "id": 7,
@@ -987,7 +1018,7 @@
       "raceDistance": "309.049 km",
       "lapRecord": "1:15.484",
       "driverLapRecord": "Lewis Hamilton (2020)",
-      "currentStatus": "notStarted",
+      "currentStatus": "onGoing",
       "podium": []
     },
     {
