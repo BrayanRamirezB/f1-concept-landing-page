@@ -155,7 +155,7 @@
       "powerUnit": "Ferrari",
       "firstTeamEntry": "1950",
       "worldChampionship": "16",
-      "currentPointsWC": 94,
+      "currentPointsWC": 114,
       "highestRaceFinish": "1 (x249)",
       "polePosition": "253",
       "fastestLaps": "263",
@@ -365,9 +365,9 @@
       "powerUnit": "Mercedes",
       "firstTeamEntry": "1966",
       "worldChampionship": "9",
-      "currentPointsWC": 246,
-      "highestRaceFinish": "1 (x193)",
-      "polePosition": "167",
+      "currentPointsWC": 279,
+      "highestRaceFinish": "1 (x194)",
+      "polePosition": "168",
       "fastestLaps": "172",
       "logo": "/images/logos/logoMclaren.webp",
       "logoWithName": "/images/logos/logoNameMcLaren.webp",
@@ -435,7 +435,7 @@
       "powerUnit": "Mercedes",
       "firstTeamEntry": "1970",
       "worldChampionship": "8",
-      "currentPointsWC": 141,
+      "currentPointsWC": 147,
       "highestRaceFinish": "1 (x120)",
       "polePosition": "133",
       "fastestLaps": "100",
@@ -505,7 +505,7 @@
       "powerUnit": "Honda RBPT",
       "firstTeamEntry": "1985",
       "worldChampionship": "0",
-      "currentPointsWC": 8,
+      "currentPointsWC": 10,
       "highestRaceFinish": "1 (x2)",
       "polePosition": "1",
       "fastestLaps": "4",
@@ -575,7 +575,7 @@
       "powerUnit": "Honda RBPT",
       "firstTeamEntry": "1997",
       "worldChampionship": "6",
-      "currentPointsWC": 105,
+      "currentPointsWC": 131,
       "highestRaceFinish": "1 (x124)",
       "polePosition": "104",
       "fastestLaps": "99",
@@ -645,7 +645,7 @@
       "powerUnit": "Mercedes",
       "firstTeamEntry": "1978",
       "worldChampionship": "9",
-      "currentPointsWC": 37,
+      "currentPointsWC": 51,
       "highestRaceFinish": "1 (x114)",
       "polePosition": "128",
       "fastestLaps": "133",
@@ -1018,8 +1018,39 @@
       "raceDistance": "309.049 km",
       "lapRecord": "1:15.484",
       "driverLapRecord": "Lewis Hamilton (2020)",
-      "currentStatus": "onGoing",
-      "podium": []
+      "currentStatus": "end",
+      "podium": [
+        {
+          "id": 17,
+          "name": "Verstappen",
+          "fullName": "Max Verstappen",
+          "raceNumber": "1",
+          "team": "Red Bull",
+          "country": "Netherlands",
+          "countryFlag": "/images/flags/Netherlands.webp",
+          "driverImage": "/images/drivers/maxver01.webp"
+        },
+        {
+          "id": 12,
+          "name": "Norris",
+          "fullName": "Lando Norris",
+          "raceNumber": "4",
+          "team": "McLaren",
+          "country": "United Kingdom",
+          "countryFlag": "/images/flags/UnitedKingdom.webp",
+          "driverImage": "/images/drivers/lannor01.webp"
+        },
+        {
+          "id": 11,
+          "name": "Piastri",
+          "fullName": "Oscar Piastri",
+          "raceNumber": "81",
+          "team": "McLaren",
+          "country": "Australia",
+          "countryFlag": "/images/flags/australia-flag.webp",
+          "driverImage": "/images/drivers/oscpia01.webp"
+        }
+      ]
     },
     {
       "id": 8,
@@ -1037,7 +1068,7 @@
       "raceDistance": "260.286 km",
       "lapRecord": "1:12.909",
       "driverLapRecord": "Lewis Hamilton (2021)",
-      "currentStatus": "notStarted",
+      "currentStatus": "onGoing",
       "podium": []
     },
     {
