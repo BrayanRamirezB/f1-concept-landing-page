@@ -33,7 +33,7 @@
           "podiums": "5",
           "wins": "1",
           "points": "443",
-          "grandsPrixEntered": "159",
+          "grandsPrixEntered": "160",
           "worldChampionships": "0",
           "highestRaceFinish": "1 (x1)",
           "highestGridPosition": "2",
@@ -56,7 +56,7 @@
           "podiums": "0",
           "wins": "0",
           "points": "5",
-          "grandsPrixEntered": "10",
+          "grandsPrixEntered": "11",
           "worldChampionships": "0",
           "highestRaceFinish": "8 (x1)",
           "highestGridPosition": "8",
@@ -103,7 +103,7 @@
           "podiums": "106",
           "wins": "32",
           "points": "2337",
-          "grandsPrixEntered": "409",
+          "grandsPrixEntered": "410",
           "worldChampionships": "2",
           "highestRaceFinish": "1 (x32)",
           "highestGridPosition": "1",
@@ -126,7 +126,7 @@
           "podiums": "3",
           "wins": "0",
           "points": "302",
-          "grandsPrixEntered": "172",
+          "grandsPrixEntered": "173",
           "worldChampionships": "0",
           "highestRaceFinish": "3 (x3)",
           "highestGridPosition": "1",
@@ -172,8 +172,8 @@
           "countryFlag": "/images/flags/Monaco.webp",
           "podiums": "44",
           "wins": "8",
-          "points": "1483",
-          "grandsPrixEntered": "153",
+          "points": "1491",
+          "grandsPrixEntered": "154",
           "worldChampionships": "0",
           "highestRaceFinish": "1 (x8)",
           "highestGridPosition": "1",
@@ -183,7 +183,7 @@
           "helmetImage": "/images/helmets/leclerc.webp",
           "driverImage": "/images/drivers/chalec01.webp",
           "homeRace": "Circuit de Monaco",
-          "currentPointsDWC": 53
+          "currentPointsDWC": 61
         },
         {
           "id": 6,
@@ -195,8 +195,8 @@
           "countryFlag": "/images/flags/UnitedKingdom.webp",
           "podiums": "202",
           "wins": "105",
-          "points": "4903.5",
-          "grandsPrixEntered": "362",
+          "points": "4915.5",
+          "grandsPrixEntered": "363",
           "worldChampionships": "7",
           "highestRaceFinish": "1 (x105)",
           "highestGridPosition": "1",
@@ -206,7 +206,7 @@
           "helmetImage": "/images/helmets/hamilton.webp",
           "driverImage": "/images/drivers/lewham01.webp",
           "homeRace": "Silverstone Circuit",
-          "currentPointsDWC": 41
+          "currentPointsDWC": 53
         }
       ]
     },
@@ -243,7 +243,7 @@
           "podiums": "4",
           "wins": "1",
           "points": "459",
-          "grandsPrixEntered": "162",
+          "grandsPrixEntered": "163",
           "worldChampionships": "0",
           "highestRaceFinish": "1 (x1)",
           "highestGridPosition": "3",
@@ -266,7 +266,7 @@
           "podiums": "0",
           "wins": "0",
           "points": "13",
-          "grandsPrixEntered": "9",
+          "grandsPrixEntered": "10",
           "worldChampionships": "0",
           "highestRaceFinish": "7 (x1)",
           "highestGridPosition": "10",
@@ -313,7 +313,7 @@
           "podiums": "0",
           "wins": "0",
           "points": "577",
-          "grandsPrixEntered": "233",
+          "grandsPrixEntered": "234",
           "worldChampionships": "0",
           "highestRaceFinish": "4 (x3)",
           "highestGridPosition": "1",
@@ -336,7 +336,7 @@
           "podiums": "0",
           "wins": "0",
           "points": "0",
-          "grandsPrixEntered": "6",
+          "grandsPrixEntered": "7",
           "worldChampionships": "0",
           "highestRaceFinish": "14 (x1)",
           "highestGridPosition": "15",
@@ -380,10 +380,10 @@
           "team": "McLaren",
           "country": "Australia",
           "countryFlag": "/images/flags/australia-flag.webp",
-          "podiums": "15",
+          "podiums": "16",
           "wins": "6",
-          "points": "520",
-          "grandsPrixEntered": "52",
+          "points": "535",
+          "grandsPrixEntered": "53",
           "worldChampionships": "0",
           "highestRaceFinish": "1 (x6)",
           "highestGridPosition": "1",
@@ -393,7 +393,7 @@
           "helmetImage": "/images/helmets/piastri.webp",
           "driverImage": "/images/drivers/oscpia01.webp",
           "homeRace": "Albert Park Grand Prix Circuit",
-          "currentPointsDWC": 131
+          "currentPointsDWC": 146
         },
         {
           "id": 12,
@@ -403,10 +403,10 @@
           "team": "McLaren",
           "country": "United Kingdom",
           "countryFlag": "/images/flags/UnitedKingdom.webp",
-          "podiums": "32",
+          "podiums": "33",
           "wins": "5",
-          "points": "1122",
-          "grandsPrixEntered": "134",
+          "points": "1140",
+          "grandsPrixEntered": "135",
           "worldChampionships": "0",
           "highestRaceFinish": "1 (x5)",
           "highestGridPosition": "1",
@@ -416,7 +416,7 @@
           "helmetImage": "/images/helmets/norris.webp",
           "driverImage": "/images/drivers/lannor01.webp",
           "homeRace": "Silverstone Circuit",
-          "currentPointsDWC": 115
+          "currentPointsDWC": 133
         }
       ]
     },
@@ -452,8 +452,8 @@
           "countryFlag": "/images/flags/UnitedKingdom.webp",
           "podiums": "19",
           "wins": "3",
-          "points": "807",
-          "grandsPrixEntered": "134",
+          "points": "813",
+          "grandsPrixEntered": "135",
           "worldChampionships": "0",
           "highestRaceFinish": "1 (x3)",
           "highestGridPosition": "1",
@@ -463,7 +463,7 @@
           "helmetImage": "/images/helmets/russell.webp",
           "driverImage": "/images/drivers/georus01.webp",
           "homeRace": "Silverstone Circuit",
-          "currentPointsDWC": 93
+          "currentPointsDWC": 99
         },
         {
           "id": 14,
@@ -476,7 +476,7 @@
           "podiums": "0",
           "wins": "0",
           "points": "48",
-          "grandsPrixEntered": "6",
+          "grandsPrixEntered": "7",
           "worldChampionships": "0",
           "highestRaceFinish": "4 (x1)",
           "highestGridPosition": "3",
@@ -523,7 +523,7 @@
           "podiums": "0",
           "wins": "0",
           "points": "6",
-          "grandsPrixEntered": "17",
+          "grandsPrixEntered": "18",
           "worldChampionships": "0",
           "highestRaceFinish": "9 (x3)",
           "highestGridPosition": "5",
@@ -545,7 +545,7 @@
           "countryFlag": "/images/flags/France.webp",
           "podiums": "0",
           "wins": "0",
-          "points": "5",
+          "points": "7",
           "grandsPrixEntered": "6",
           "worldChampionships": "0",
           "highestRaceFinish": "8 (x1)",
@@ -556,7 +556,7 @@
           "helmetImage": "/images/helmets/hadjar.webp",
           "driverImage": "/images/drivers/isahad01.webp",
           "homeRace": "Circuit Paul Ricard",
-          "currentPointsDWC": 5
+          "currentPointsDWC": 7
         }
       ]
     },
@@ -590,12 +590,12 @@
           "team": "Red Bull",
           "country": "Netherlands",
           "countryFlag": "/images/flags/Netherlands.webp",
-          "podiums": "115",
-          "wins": "64",
-          "points": "3122.5",
-          "grandsPrixEntered": "215",
+          "podiums": "116",
+          "wins": "65",
+          "points": "3147.5",
+          "grandsPrixEntered": "216",
           "worldChampionships": "4",
-          "highestRaceFinish": "1 (x64)",
+          "highestRaceFinish": "1 (x65)",
           "highestGridPosition": "1",
           "dateOfBirth": "30/09/1997",
           "age": "27",
@@ -603,7 +603,7 @@
           "helmetImage": "/images/helmets/verstappen.webp",
           "driverImage": "/images/drivers/maxver01.webp",
           "homeRace": "Circuit Zandvoort",
-          "currentPointsDWC": 99
+          "currentPointsDWC": 124
         },
         {
           "id": 15,
@@ -615,8 +615,8 @@
           "countryFlag": "/images/flags/Japan.webp",
           "podiums": "0",
           "wins": "0",
-          "points": "100",
-          "grandsPrixEntered": "93",
+          "points": "101",
+          "grandsPrixEntered": "94",
           "worldChampionships": "0",
           "highestRaceFinish": "4 (x1)",
           "highestGridPosition": "3",
@@ -626,7 +626,7 @@
           "helmetImage": "/images/helmets/tsunoda.webp",
           "driverImage": "/images/drivers/yuktsu01.webp",
           "homeRace": "Suzuka Circuit",
-          "currentPointsDWC": 9
+          "currentPointsDWC": 10
         }
       ]
     },
@@ -662,8 +662,8 @@
           "countryFlag": "/images/flags/Spain.webp",
           "podiums": "27",
           "wins": "4",
-          "points": "1279.5",
-          "grandsPrixEntered": "212",
+          "points": "1283.5",
+          "grandsPrixEntered": "213",
           "worldChampionships": "0",
           "highestRaceFinish": "1 (x4)",
           "highestGridPosition": "1",
@@ -673,7 +673,7 @@
           "helmetImage": "/images/helmets/sainz.webp",
           "driverImage": "/images/drivers/carsai01.webp",
           "homeRace": "Circuit de Barcelona-Catalunya",
-          "currentPointsDWC": 7
+          "currentPointsDWC": 11
         },
         {
           "id": 20,
@@ -685,8 +685,8 @@
           "countryFlag": "/images/flags/Thailand.webp",
           "podiums": "2",
           "wins": "0",
-          "points": "270",
-          "grandsPrixEntered": "110",
+          "points": "280",
+          "grandsPrixEntered": "111",
           "worldChampionships": "0",
           "highestRaceFinish": "3 (x2)",
           "highestGridPosition": "4",
@@ -696,7 +696,7 @@
           "helmetImage": "/images/helmets/albon.webp",
           "driverImage": "/images/drivers/alealb01.webp",
           "homeRace": "Silverstone Circuit",
-          "currentPointsDWC": 30
+          "currentPointsDWC": 40
         }
       ]
     }
