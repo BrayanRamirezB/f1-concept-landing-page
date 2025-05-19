@@ -513,7 +513,7 @@
       "logoWithName": "/images/logos/logoNameRB.webp",
       "drivers": [
         {
-          "id": 18,
+          "id": 15,
           "name": "Lawson",
           "fullName": "Liam Lawson",
           "raceNumber": "30",
@@ -606,7 +606,7 @@
           "currentPointsDWC": 124
         },
         {
-          "id": 15,
+          "id": 18,
           "name": "Tsunoda",
           "fullName": "Yuki Tsunoda",
           "raceNumber": "22",

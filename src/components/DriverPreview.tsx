@@ -38,7 +38,7 @@ const DriverPreview = ({ previewDriver }: driverPreviewProps) => {
     <a
       key={previewDriver.id}
       href={`/driver/${previewDriver.name.replaceAll(' ', '-').toLowerCase()}`}
-      className={`absolute flex flex-col items-center justify-center gap-y-2 max-w-82 animate-pulse-fade-in hover:scale-110 transition duration-500 ease-in-out -translate-y-2 ${textColor[teamId]}`}
+      className={`absolute flex flex-col items-center justify-center gap-y-2 max-w-82 animate-pulse-fade-in hover:scale-110 transition duration-500 ease-in-out -translate-y-2`}
     >
       <img
         src={previewDriver.driverImage}
@@ -58,7 +58,9 @@ const DriverPreview = ({ previewDriver }: driverPreviewProps) => {
         />
       </div>
 
-      <h3 className='hidden lg:block lg:text-4xl font-bold italic text-center'>
+      <h3
+        className={`hidden lg:block lg:text-4xl font-bold italic text-center ${textColor[teamId]}`}
+      >
         {previewDriver.fullName}
       </h3>
       <div
